@@ -12,6 +12,12 @@ const ITEMS = [
     link: null,
   },
   {
+    title: 'Portfolio Website',
+    meta: 'Personal Project / Mar 2026',
+    desc: 'Designed and built a personal portfolio from scratch using vanilla JavaScript and HTML5 Canvas API. Features a custom animated background with a diagonal wave beam and film grain effect, client-side routing with fade transitions, and a responsive layout optimized for desktop and mobile.',
+    link: { label: 'GitHub', href: 'https://github.com/ognjenkojic13/Portfolio-website' },
+  },
+  {
     title: 'Full Stack Developer',
     meta: 'Freelance / Sep 2024 – Nov 2024',
     desc: 'Built a food ordering admin panel end-to-end — Vue.js frontend, Node.js/Express backend, MySQL database. Implemented authentication, protected routes, and full CRUD operations. Delivered solo within 2 months.',

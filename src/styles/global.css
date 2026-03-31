@@ -114,7 +114,8 @@ a {
     max-width: none;
     top: 32px;
     transform: none;
-    max-height: calc(100dvh - 230px);
+    max-height: none;
+    overflow-y: visible;
   }
 }
 

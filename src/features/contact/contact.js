@@ -1,6 +1,6 @@
 export function renderContact(container) {
   const div = document.createElement('div');
-  div.style.cssText = 'font-size: clamp(0.8rem, 1.1vw, 1rem); color: #fff; font-weight: 500; line-height: 1.7;';
+  div.style.cssText = 'font-size: 0.875rem; color: #fff; font-weight: 500; line-height: 1.7;';
   div.innerHTML = `
     <span style="font-weight: 700;">Email: </span>
     <a href="mailto:ognjenkojic13@gmail.com" class="ext-link">ognjenkojic13@gmail.com</a><br>

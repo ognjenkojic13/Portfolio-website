@@ -52,11 +52,11 @@ export function renderWork(container) {
     div.style.marginBottom = '32px';
 
     const h2 = document.createElement('h2');
-    h2.style.cssText = 'font-size: clamp(1.5rem, 2.8vw, 2.5rem); font-weight: 300; text-transform: uppercase; line-height: 1.111; margin: 0;';
+    h2.style.cssText = 'font-size: 2rem; font-weight: 300; text-transform: uppercase; line-height: 1.111; margin: 0;';
     h2.textContent = item.title;
 
     const meta = document.createElement('p');
-    meta.style.cssText = 'font-size: clamp(0.8rem, 1.1vw, 1rem); color: #9ca3af; margin-top: 0.25rem;';
+    meta.style.cssText = 'font-size: 0.875rem; color: #9ca3af; margin-top: 0.25rem;';
     if (item.link) {
       const a = document.createElement('a');
       a.href = item.link.href;
@@ -71,7 +71,7 @@ export function renderWork(container) {
     }
 
     const desc = document.createElement('p');
-    desc.style.cssText = 'font-size: clamp(0.8rem, 1.1vw, 1rem); font-weight: 500; max-width: 70%; line-height: 1.43; margin-top: 0.25rem;';
+    desc.style.cssText = 'font-size: 0.875rem; font-weight: 500; max-width: 70%; line-height: 1.43; margin-top: 0.25rem;';
     desc.textContent = item.desc;
 
     div.appendChild(h2);

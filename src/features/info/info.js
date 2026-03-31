@@ -2,8 +2,8 @@ export function renderInfo(container) {
   const div = document.createElement('div');
   div.style.cssText = 'color: #fff;';
   div.innerHTML = `
-    <div style="font-size: clamp(1rem, 1.8vw, 1.3rem); font-weight: 700; margin-bottom: 16px;">Info</div>
-    <div style="font-size: clamp(0.85rem, 1.8vw, 1.25rem); font-weight: 500; line-height: 1.43; max-width: 70%;">
+    <div style="font-size: clamp(0.9rem, 1.1vw, 1.05rem); font-weight: 700; margin-bottom: 16px;">Info</div>
+    <div style="font-size: clamp(0.8rem, 1.1vw, 1rem); font-weight: 500; line-height: 1.43; max-width: 70%;">
       Computer Science @ <em>RAF University</em>, Belgrade — final year.<br><br>
       I work on both the development and design side of frontend. Most recently
       I was frontend developer and UX/UI designer on a banking platform —

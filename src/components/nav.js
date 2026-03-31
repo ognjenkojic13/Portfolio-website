@@ -12,7 +12,7 @@ export function initNav(container, items, active, onNavClick, align) {
 
   const nameEl = document.createElement('div');
   nameEl.style.cssText = `
-    font-size: clamp(2rem, 4vw, 4rem);
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0;

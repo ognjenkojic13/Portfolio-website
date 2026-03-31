@@ -1,3 +1,5 @@
+<img width="1413" height="795" alt="Screenshot 2026-03-30 at 17 28 22" src="https://github.com/user-attachments/assets/28343475-4a81-4d42-bb9a-121e0d05895b" />
+
 # Ognjen Kojić — Portfolio
 
 Vanilla JavaScript portfolio website featuring a canvas-based film grain and diagonal wave beam animation. Single-page application with smooth section transitions, responsive layout, and a minimal black-and-white aesthetic.

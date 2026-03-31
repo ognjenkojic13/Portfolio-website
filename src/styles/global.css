@@ -115,7 +115,7 @@ a {
     max-width: none;
     top: 32px;
     transform: none;
-    max-height: calc(100dvh - 180px);
+    max-height: calc(100dvh - 240px);
     overflow-y: auto;
   }
 }
